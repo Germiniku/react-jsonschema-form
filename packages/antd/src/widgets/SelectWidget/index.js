@@ -77,6 +77,7 @@ const SelectWidget = ({
 
   return (
     <Select
+      autoClear={true}
       autoFocus={autofocus}
       disabled={disabled || (readonlyAsDisabled && readonly)}
       getPopupContainer={getPopupContainer}
